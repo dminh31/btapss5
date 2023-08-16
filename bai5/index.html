@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<ul>
+    <style>
+       .material-symbols-outlined{
+        position: relative;
+        right: 20px;
+       }
+        .container {
+            border: 1px solid black;
+            margin-left: -200px;
+            width: 150px;
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            transition: all 2s ease;
+        }
+       .menu:hover + .container{
+            margin-left: 0;
+        }
+        li{
+            list-style: none;
+        }
+
+    </style>
+<body>
+    <div class="menu">
+        <span class="material-symbols-outlined ">
+            menu
+        </span>
+    </div>
+    <div class="container">
+        <span class="material-symbols-outlined">
+            close
+        </span>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Info</li>
+            <li>Contact</li>
+            <li>Show me more</li>
+        </ul>
+    </div>
+</body>
+</html>
